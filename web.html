@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site S3 - HTML CSS JS</title>
+    <link rel="stylesheet" href="web.css">
+    <meta name="auteur" content="ZIAD ABOUMALIK">
+</head>
+<body>
+    <header>
+        <h1>Site Pour Exam Final (HTML / CSS / JS) </h1>
+        <nav>
+            <a href="#horloge">Horloge</a>
+            <a href="#calculatrice">Calculatrice</a>
+            <a href="#cesar">César</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#contact">Contact</a>
+            <button id="bouton" onclick="changerTheme()">Changer le thème</button>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="accueil" class="theme">
+            <h2>Bienvenue</h2>
+            <p>
+                Ce petit site regroupe les notions vues en TD et TP :
+                <strong>Date</strong>, <strong>heure avec secondes</strong>,
+                <strong>calculatrice</strong>, <strong>images</strong>, 
+                <strong>formulaires</strong>, et <strong>Chiffrement de César</strong>
+            </p>
+        </section>
+
+        
+        <section id="horloge" class="theme">
+            <h2>Horloge en temps réel</h2>
+            <p>Date actuelle :</p>
+            <p id="date" class="text"></p>
+
+            <p>Heure actuelle :</p>
+            <p id="heure" class="heure"></p>
+        </section>
+
+        
+        <section id="calculatrice" class="theme">
+            <h2>Calculatrice simple</h2>
+            <div class="calculatrice">
+                <input type="text" id="nombre1" placeholder="Nombre 1">
+                <select id="operation">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">x</option>
+                    <option value="/">÷</option>
+                </select>
+                <input type="text" id="nombre2" placeholder="Nombre 2">
+                <button onclick="calculer()">Calculer</button>
+            </div>
+            <p>Résultat : <span id="resultat"></span></p>
+        </section>
+
+        
+        <section id="cesar" class="theme">
+            <h2>Chiffrement de César</h2>
+            
+
+            <div class="formulaire">
+                <label for="a">Code Déchiffré :</label>
+                <input type="text" id="a" name="a">
+            </div>
+
+            <div class="formulaire">
+                <label for="b">Clé (décalage) :</label>
+                <input type="text" id="b" name="b">
+            </div>
+
+            <div class="formulaire">
+                <button onclick="Chiffrer()">Chiffrer</button>
+                <button onclick="Dechiffrer()">Déchiffrer</button>
+            </div>
+
+            <div class="formulaire">
+                <label for="abc">Code Chiffré :</label>
+                <input type="text" id="abc" name="abc" >
+            </div>
+        </section>
+
+        
+        <section id="galerie" class="theme">
+            <h2>Galerie d'images</h2>
+            <div class="galerie2">
+                <img id="images">
+            </div>
+
+            <div class="boutons">
+                <button onclick="Precedente()">◀ Précédente</button>
+                <button onclick="Suivante()">Suivante ▶</button>
+            </div>
+        </section>
+
+        
+        <section id="contact" class="theme">
+            <h2>Formulaire de contact</h2>
+            
+            <form id="contact2" >
+                <div class="formulaire">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div class="formulaire">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="formulaire">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+
+                <button type="button" onclick="formulaire()">Envoyer</button>
+            </form>
+
+            <p id="formulaire" class="info"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Site Web S3</p>
+    </footer>
+
+    <script src="web.js"></script>
+</body>
+</html>
