@@ -1,6 +1,6 @@
-# 🌐 Site Web Pour Exam Final – Programmation Web S3 (HTML / CSS / JavaScript)
+## Site Web Pour Exam Final – Programmation Web S3 (HTML / CSS / JavaScript)
 
-## 👤 Auteur
+## Auteur
 **Nom :** ZIAD ABOUMALIK  
 **Filière :** IA – Semestre 3  
 **Module :** Programmation Web 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Description du projet
+## Description du projet
 
 Ce site web est un **projet pédagogique** du module *Programmation Web*.  
 Il regroupe et illustre les principales notions vues en cours et en TD en **HTML, CSS et JavaScript**.
@@ -17,16 +17,16 @@ Le projet est volontairement simple, clair et conforme.
 
 ---
 
-## 🎯 Objectifs pédagogiques
+## Objectifs pédagogiques
 
 - Mettre en pratique les notions vues en TD
 - Utiliser les événements HTML
 - Travailler avec les objets JavaScript standards
 ---
 
-## 🧩 Fonctionnalités du site
+## Fonctionnalités du site
 
-### 🕒 Horloge en temps réel
+### Horloge en temps réel
 - Affichage de la date actuelle
 - Affichage de l’heure (heures, minutes, secondes)
 - Mise à jour automatique avec `setInterval()`
@@ -34,7 +34,7 @@ Le projet est volontairement simple, clair et conforme.
 
 ---
 
-### ➕ Calculatrice simple
+###  Calculatrice simple
 - Deux champs numériques
 - Choix de l’opération (+, −, ×, ÷)
 - Affichage du résultat
@@ -45,7 +45,7 @@ Le projet est volontairement simple, clair et conforme.
 
 ---
 
-### 🖼️ Galerie d’images
+### Galerie d’images
 - Navigation entre plusieurs images
 - Boutons *Précédente* / *Suivante*
 - Utilisation :
@@ -55,13 +55,13 @@ Le projet est volontairement simple, clair et conforme.
 
 ---
 
-### ✉️ Formulaire de contact
+### Formulaire de contact
 - Champs : nom, email, message
 - Vérification des champs obligatoires
 
 ---
 
-### 🔐 Chiffrement de César
+###  Chiffrement de César
 - Implémentation de l’algorithme de César vu en TD
 - Chiffrement et déchiffrement d’un texte
 - Décalage paramétrable
@@ -72,13 +72,13 @@ Le projet est volontairement simple, clair et conforme.
 
 ---
 
-### 🎨 Changement de thème
+### Changement de thème
 - Passage clair ↔ sombre
 - Modification dynamique du style via JavaScript
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **HTML5** : structure du site
 - **CSS3** : mise en forme et présentation
