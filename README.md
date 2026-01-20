@@ -17,7 +17,7 @@ Le projet est volontairement simple, clair et conforme.
 
 ---
 
-## Objectifs pédagogiques
+## Objectifs 
 
 - Mettre en pratique les notions vues en TD
 - Utiliser les événements HTML
