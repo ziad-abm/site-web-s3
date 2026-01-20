@@ -78,7 +78,7 @@ Le projet est volontairement simple, clair et conforme.
 
 ---
 
-## Technologies utilisées
+## Langage utilisées
 
 - **HTML5** : structure du site
 - **CSS3** : mise en forme et présentation
