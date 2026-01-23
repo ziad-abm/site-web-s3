@@ -81,7 +81,7 @@ function Chiffrer(){
          message = document.getElementById("message").value;
         
         if(nom === "" || email === "" || message === ""){
-            document.getElementById("formulaire").innerHTML = '<span class="erreur">⚠️ Veuillez remplir tous les champs !</span>';
+            document.getElementById("formulaire").innerHTML = '<span class="erreur"> Veuillez remplir tous les champs !</span>';
             return;
         }
         
