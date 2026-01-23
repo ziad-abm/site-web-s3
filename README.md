@@ -10,10 +10,10 @@
 
 ## Description du projet
 
-Ce site web est un **projet pédagogique** du module *Programmation Web*.  
-Il regroupe et illustre les principales notions vues en cours et en TD en **HTML, CSS et JavaScript**.
+Ce site web est un **projet ** du module *Programmation Web*.  
+Il regroupe  les principales notions vues en cours et en TD en **HTML, CSS et JavaScript**.
 
-Le projet est volontairement simple, clair et conforme.
+Le projet est simple et clair.
 
 ---
 
@@ -21,7 +21,7 @@ Le projet est volontairement simple, clair et conforme.
 
 - Mettre en pratique les notions vues en TD
 - Utiliser les événements HTML
-- Travailler avec les objets JavaScript standards
+- Travailler avec les objets JavaScript 
 ---
 
 ## Fonctionnalités du site
