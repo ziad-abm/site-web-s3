@@ -86,7 +86,7 @@ function Chiffrer(){
         }
         
         affichage = '<div class="a">';
-        affichage += '<p><strong>✓ Message envoyé avec succès !</strong></p>';
+        affichage += '<p><strong> Message envoyé avec succès !</strong></p>';
         affichage += '<div class="b">';
         affichage += '<p><span class="c">Nom :</span> <span class="d">' + nom + '</span></p>';
         affichage += '<p><span class="c">Email :</span> <span class="d">' + email + '</span></p>';
